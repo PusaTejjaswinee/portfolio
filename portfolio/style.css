@@ -1,0 +1,127 @@
+img{
+    size: 20dp;
+}
+body{
+   
+    background-color: black;
+}
+nav {
+    padding:20px;
+    background-color: aliceblue;
+    font-size: 15px;
+    text-align: right;
+}
+a{
+    color:black;
+    margin: 50px;
+    font-style: inherit;
+}
+.a{
+    float: left;
+    border-radius: 50%;
+}
+h3{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1cm;
+    margin: 3em 10em;
+    font-weight: bold;
+}
+h1{
+    text-align: left;
+    color: aliceblue;
+
+}
+p{
+    color: aliceblue;
+    text-align: left;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #090909;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    font-size: larger;
+    font-weight: bold;
+}
+footer{
+ padding: 2px;
+ background-color: aliceblue; 
+ margin: 7em 1em 1em 1em;
+}
+.b{
+    margin: 1em;
+    text-align: center;
+    max-height: 50%;
+}
+.contact-info{
+    text-align: right;
+    float: right; 
+    vertical-align: middle;
+}
+.contact-info p{
+    color: #090909;
+    margin-right: 3cm;
+    font-weight: bold;
+}
+.education h1{
+    margin:1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Study{
+    margin: 1em;
+    background-color: grey;
+}
+.Study p{
+    font-weight: bold;
+    color: #090909;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 1cm;
+    font-size: larger;
+    
+}
+.contact{
+    background-color: grey;
+    width: 80%;
+    margin:auto;
+    padding:20px;
+}
+form {
+    background: gray;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="submit"]:hover {
+    background: #555;
+}
